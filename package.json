@@ -1,0 +1,11 @@
+{
+  "name": "gestion-incidencias-payflow",
+  "version": "1.0.0",
+  "description": "Laboratorio UTP: gestión de incidencias TIC con Git y GitHub",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["utp", "incidencias", "git", "github", "payflow"],
+  "license": "ISC"
+}

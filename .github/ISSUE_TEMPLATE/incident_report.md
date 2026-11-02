@@ -1,39 +1,41 @@
-
 ---
-name: Reporte de Incidencia
-about: Utilice esta plantilla para registrar interrupciones o degradaciones en producción.
-title: '[INCIDENTE] Título corto del problema'
-labels: 'status: triage'
-assignees: ''
+name: Reporte de incidente
+about: Registrar una incidencia de un servicio TIC
+title: "[INCIDENTE] "
+labels: ""
+assignees: ""
 ---
 
-## 1. Información General
+## Información del incidente
+- **Servicio afectado:**
+- **Entorno:** Producción / Pruebas
+- **Fecha y hora de detección:**
+- **Severidad:** P1 / P2 / P3 / P4
 
-* **Servicio / Módulo Afectado:**
-* **Entorno:** [Producción / Staging]
-* **Hora de Detección:** YYYY-MM-DD HH:MM UTC
-* **Severidad Estimada:** [P1 - Crítico / P2 - Alto / P3 - Medio / P4 - Bajo]
+## Descripción
+Describe qué ocurrió y cuál es el comportamiento observado.
 
-## 2. Descripción del Síntoma
+## Impacto
+- Usuarios afectados:
+- Funcionalidad afectada:
+- Impacto en el negocio:
 
-Describa el comportamiento observado desde la perspectiva del usuario o del sistema de monitorización.
-
-## 3. Evidencias Técnicas y Logs
-
-Pegue las trazas de error, códigos HTTP, capturas o métricas relevantes:
-
+## Evidencias y registros
 ```text
-<Insertar logs aquí>
+Pega aquí los logs o mensajes de error.
 ```
 
-## 4. Pasos para Reproducir
-
+## Pasos para reproducir
 1.
 2.
 3.
 
-## 5. Acciones de Contención Propuestas
+## Acciones de contención
+- [ ] Verificar el estado del servicio.
+- [ ] Revisar logs y métricas.
+- [ ] Aplicar una medida temporal.
+- [ ] Comunicar el estado a los responsables.
 
-- [ ] Aislar componente afectado
-- [ ] Aplicar rollback de release
-- [ ] Modificar variables de entorno / parches de emergencia
+## Seguimiento
+- **Responsable:**
+- **Issue relacionado / PR:**
